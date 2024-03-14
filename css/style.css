@@ -1,3 +1,78 @@
+@font-face {
+    font-family: work-sans-bold;
+    src: url(../assets/fonts/static/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: work-sans-regular;
+    src: url(../assets/fonts/static/WorkSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: work-sans-semibold;
+    src: url(../assets/fonts/static/WorkSans-SemiBold.ttf);
+}
+
+
 body {
-    background-color: aquamarine;
+    background: url(../assets/images/background-pattern-desktop.svg) no-repeat;
+    background-color: hsl(275, 100%, 97%);
+    background-size: 100vw;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-wrap: wrap;
+    font-style: work-sans-regular;
+    font-size: 1rem;
+    color: grey;
+}
+
+.app {
+    width: 45vw;
+    max-height: 80vh;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0rem 2.5rem 2rem 2.5rem;
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.app::-webkit-scrollbar {
+    display: none;
+  }
+.app {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.app div {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-family: work-sans-bold;
+    color: hsl(292, 42%, 14%);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-family: work-sans-semibold;
+    color: hsl(292, 42%, 14%);
+    font-size: 1.1rem;
+ 
+}
+
+.hide{
+    display: none;
+}
+
+.h2style {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h2style svg {
+    position: relative;
+    top: 0.6rem;
 }
