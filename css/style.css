@@ -49,6 +49,10 @@ body {
     margin-bottom: 1rem;
 }
 
+.app p {
+    max-width: 80%;
+}
+
 h1 {
     font-family: work-sans-bold;
     color: hsl(292, 42%, 14%);
@@ -76,3 +80,9 @@ h2 {
     position: relative;
     top: 0.6rem;
 }
+
+h1 svg {
+    position: relative;
+    top: 0.35rem;
+}
+
