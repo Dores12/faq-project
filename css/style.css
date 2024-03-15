@@ -98,3 +98,11 @@ h1 svg {
         top: 1rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .app {
+        width: 100vw;
+        border-radius: 0px;
+        
+    }
+}
